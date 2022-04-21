@@ -103,7 +103,8 @@
                 "when": "editorTextFocus && !editorReadonly"
             },
             {
-                "key": "alt+backspace",
+                "win": "alt+backspace",
+                "linux": "alt+backspace",
                 "command": "undo",
                 "when": "editorTextFocus && !editorReadonly"
             },
